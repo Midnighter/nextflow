@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-#  Copyright 2020-2021, Seqera Labs
+#  Copyright 2020-2022, Seqera Labs
 #  Copyright 2013-2019, Centre for Genomic Regulation (CRG)
 #
 #  Licensed under the Apache License, Version 2.0 (the "License");
@@ -88,6 +88,9 @@ export COLUMNS
 export NXF_PLUGINS_DIR
 export NXF_PLUGINS_MODE
 export NXF_PLUGINS_DEFAULT
+
+# Yourkit profiling library
+YOURKIT_AGENT=${YOURKIT_AGENT:-/Applications/YourKit-Java-Profiler-2021.11.app/Contents/Resources/bin/mac/libyjpagent.dylib}
 
 #
 # classpath when the application is compiled with gradle
